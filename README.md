@@ -83,17 +83,31 @@ Drivers were intentionally selected for interpretability rather than maximum sta
 
 ## Run the Pipeline
 
-From the repository root, execute:
+1. Clone the repository
+```
+git clone https://github.com/carlospereztx/ma-stars-structural-modeling.git
+cd ma-stars-structural-modeling
+```
 
-```bash
+2. Create a virtual environment
+```python
+-m venv .venv
+```
+3. Activate the virtual environment
+```
+.venv\Scripts\activate
+```
+4. Install dependencies
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+5. Run the pipeline:
+```
 python run_all.py
+```
 
 ---
-## Production-Style Data Pipeline Architecture
-
-```mermaid
-flowchart TD
-
 ## Pipeline Architecture
 
 ```mermaid
@@ -274,7 +288,7 @@ Primary contribution: **context-adjusted segmentation clarity rather than predic
 
 ---
 
-## Portfolio Signal
+## Project Goals
 
 This project demonstrates:
 
