@@ -170,16 +170,21 @@ Near-threshold contracts ranked by most negative performance gap for portfolio t
 These artifacts are generated automatically in `reports/figures/`.
 
 ### Structural vs Observed Scatter
-
 ![Structural vs Observed](reports/figures/fig01_structural_vs_observed_scatter.png)
+Observed contract Star Ratings align with structural expectation, confirming that measurable environmental conditions explain meaningful variation. However, dispersion around expectation highlights contract-level performance gaps that warrant differentiated interpretation.
 
-### HPSA Exposure Gradient
 
-![HPSA Gradient](reports/figures/fig03_hpsa_decile_gradient.png)
+### Enrollment Scale Gradient
+
+![Scale Gradient](reports/figures/fig04_scale_decile_gradient.png)
+
+Structural expectation increases monotonically with enrollment scale. Larger contracts exhibit higher expected baseline performance, supporting scale as a structural driver rather than a purely operational artifact.
+
 
 ### Near-Threshold Opportunity Table
-
 ![Opportunity Table](reports/figures/fig05_opportunity_table_top15.png)
+Contracts positioned within the 3.5–3.9 range and exhibiting negative performance gaps represent economically sensitive improvement opportunities. Integrating structural expectation with rating thresholds enables disciplined portfolio prioritization.
+
 
 ---
 
