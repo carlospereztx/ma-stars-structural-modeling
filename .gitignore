@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+run_log.txt
+
+# Data
+data_raw/
+
+data_staged/**
+!data_staged/structural/
+!data_staged/structural/**
+
+# Databases
+db/
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
